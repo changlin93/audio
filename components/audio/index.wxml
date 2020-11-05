@@ -1,0 +1,17 @@
+<!--components/audio/index.wxml-->
+<view class="container">
+    <image class="play-pause" bindtap="handleClickPlayOrPause" src="{{isPlay?pause:play}}" />
+    <view class="audio-detail">
+        <view class="info">
+            <text class="title">{{source.content}}的音频</text>
+            <image class="icon" src="https://dushu.zazhipu.com/attachment/iconone/home/icon4.png" />
+        </view>
+        <view class="time">
+            <text>{{time[2] || '00:00'}}</text>
+            <slider min="0" max="{{time[1]}}" value="{{time[0]}}" activeColor="#f7f7f7"
+                backgroundColor="#f2f2f2" block-size='12' bindchange="handleDragChange"
+                bindchanging='handleDragChangeing' />
+            <text>{{time[3] || '计算中'}}</text>
+        </view>
+    </view>
+</view>

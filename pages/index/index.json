@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "lin-notes": "../../components/notes/index"
+  }
+}

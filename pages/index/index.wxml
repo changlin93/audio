@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view wx:for="{{list}}" wx:key="index">
+  <lin-notes source="{{item}}" />
+</view>

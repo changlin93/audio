@@ -1,0 +1,9 @@
+<!--components/notes/index.wxml-->
+
+    <view style="width: 620rpx; margin: 0 auto;">
+        <view>{{source.content}}</view>
+        <view style="margin-top: 20rpx;">
+            <lin-audio source="{{source}}" />
+        </view>
+    </view>
+

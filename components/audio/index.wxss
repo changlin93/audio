@@ -1,0 +1,66 @@
+/* components/audio/index.wxss */
+/* component/audio/index.wxss */
+
+.container {
+    margin-top: 20rpx;
+    width: 100%;
+    height: 120rpx;
+    display: flex;
+    align-items: center;
+    padding: 20rpx 30rpx;
+    border-radius: 20rpx;
+    background: #638FF7;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.play-pause {
+    width: 80rpx;
+    height: 80rpx;
+    margin-right: 30rpx;
+}
+
+.audio-detail {
+    height: 80rpx;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 110rpx);
+    justify-content: space-between;
+}
+.info{
+    display: flex;
+    line-height: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+    width: 100%;
+    color: #fff;
+    overflow: hidden;
+    font-size: 28rpx;
+    max-width: 500rpx;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.icon{
+    width:49rpx;
+    height: 20rpx;
+    line-height: 1;
+}
+
+.time{
+    width: 100%;
+    display: grid;
+    line-height: 1;
+    align-items: center;
+    grid-template-rows: 30rpx;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+
+.time text{
+    color: #fff;
+    font-size: 30rpx;
+    white-space: nowrap;
+}
